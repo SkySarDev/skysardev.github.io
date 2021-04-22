@@ -1,0 +1,66 @@
+@import '_reset-css';
+@import '_vars';
+
+
+body {
+  font-family: $font1;
+  font-size: 16px;
+  color: $mouse-grey;
+  overflow-x: hidden;
+}
+
+._container {
+  margin: 0 auto;
+  padding: 0 20px;
+  max-width: 1280px;
+
+  @media (max-width: 1334px) {
+    max-width: 964px;
+  }
+
+  @media (max-width: 1023px) {
+    max-width: 648px;
+  }
+
+  @media (max-width: 719px) {
+    max-width: 552px;
+  }
+
+  @media (max-width: 599px) {
+    padding: 0 10px;
+    max-width: 438px;
+  }
+
+  @media (max-width: 479px) {
+    max-width: 388px;
+  }
+
+  @media (max-width: 399px) {
+    max-width: 348px;
+  }
+}
+
+.btn {
+  text-transform: uppercase;
+  font-weight: 600;
+  line-height: 137.5%;
+  padding: 10px 25px;
+}
+
+// Header
+@import '_header';
+
+// Hero
+@import '_hero';
+
+// Main
+@import '_main-page';
+
+// Articles
+@import '_articles';
+
+// Popular
+@import '_popular';
+
+// Footer
+@import '_footer';

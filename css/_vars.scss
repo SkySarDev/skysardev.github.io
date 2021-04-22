@@ -1,0 +1,43 @@
+$font1: 'Open Sans',
+sans-serif;
+$font2: 'Georgia',
+sans-serif;
+
+$white: #FFFFFF;
+$green: #9BC34C;
+$mouse-grey: #5D6064;
+$bluish-grey: #737270;
+$dull-gray: #666666;
+$blackberry: #6F6F70;
+$black: #333333;
+$wet-asphalt:#4F4F4F;
+
+@mixin bg-img($max-width, $file) {
+  background-image: url('../images/hero/mw-#{$max-width}/#{$file}.jpg');
+}
+
+@mixin hero-grid($max-width) {
+  &__left {
+    @include bg-img($max-width, 'hero-left');
+  }
+
+  &__cent-top-1 {
+    @include bg-img($max-width, 'hero-ac1');
+  }
+
+  &__cent-top-2 {
+    @include bg-img($max-width, 'hero-ac2');
+  }
+
+  &__cent-bot-1 {
+    @include bg-img($max-width, 'hero-bc1');
+  }
+
+  &__cent-bot-2 {
+    @include bg-img($max-width, 'hero-bc2');
+  }
+
+  &__right-bot {
+    @include bg-img($max-width, 'hero-br');
+  }
+}

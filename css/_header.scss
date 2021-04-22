@@ -1,0 +1,254 @@
+/* Header */
+.header {
+  background-color: #fff;
+  padding-top: 24px;
+
+  &__inner {
+    display: grid;
+    grid-template-columns: 92px auto 42px 270px;
+    grid-template-areas:
+      'logo nav search buttons';
+  }
+
+  &__logo {
+    grid-area: logo;
+  }
+
+  &__nav {
+    grid-area: nav;
+    align-self: center;
+  }
+
+  &__list {
+    display: flex;
+    justify-content: center;
+  }
+
+  &__item {
+    margin-left: 36px;
+
+    &:first-child {
+      margin-left: 0;
+    }
+  }
+
+  &__item--hidden {
+    display: none;
+  }
+
+  &__link {
+    color: $mouse-grey;
+    font-weight: 600;
+    line-height: 150%;
+    transition: all .3s ease;
+
+    &:hover {
+      color: $green;
+      font-weight: 700;
+    }
+  }
+
+  &__search {
+    grid-area: search;
+    font-size: 20px;
+    background-color: transparent;
+    color: $mouse-grey;
+    transition: color .3s ease;
+
+    &:hover {
+      color: $green;
+    }
+  }
+
+  &__buttons {
+    grid-area: buttons;
+    display: flex;
+    justify-self: end;
+    align-items: center;
+
+    a:not(:last-child) {
+      margin-right: 20px;
+    }
+  }
+
+  &__btn-login {
+    color: $mouse-grey;
+    border: 2px solid $mouse-grey;
+    border-radius: 4px;
+    transition: all .3s ease;
+
+    &:hover {
+      color: $green;
+      border: 2px solid $green;
+    }
+  }
+
+  &__btn-signup {
+    color: #FFF;
+    border: 2px solid $green;
+    background-color: $green;
+    border-radius: 4px;
+    transition: all .3s ease;
+
+    &:hover {
+      color: $mouse-grey;
+      border: 2px solid $mouse-grey;
+    }
+  }
+
+  &__burger-icon {
+    grid-area: burger;
+    display: none;
+  }
+
+  @media (max-width: 1334px) {
+    &__inner {
+      grid-template-columns: 92px auto 270px 67px;
+      grid-template-areas: 'logo search buttons burger';
+    }
+
+    &__nav {
+      border-bottom: 1px solid $dull-gray;
+      position: absolute;
+      transition: all .35s ease-in;
+      top: -100px;
+      left: 0;
+      width: 100vw;
+      height: 100px;
+      z-index: 4;
+      padding-top: 45px;
+      background-color: #fff;
+    }
+
+    &__list {
+      flex-wrap: wrap;
+      margin: 0 auto;
+    }
+
+    &__nav._active {
+      transition: all .5s ease-out;
+      top: 0;
+    }
+
+    &__search {
+      justify-self: end;
+    }
+
+    &__burger-icon {
+      display: block;
+      align-self: center;
+      justify-self: end;
+      position: relative;
+      width: 38px;
+      height: 27px;
+      cursor: pointer;
+      z-index: 5;
+
+      span,
+      &::before,
+      &::after {
+        position: absolute;
+        background-color: $mouse-grey;
+        width: 100%;
+        height: 5px;
+        left: 0;
+      }
+
+      span {
+        top: 11px;
+        transform: scale(1);
+      }
+
+      &::before,
+      &::after {
+        content: '';
+        transition: all .2s ease;
+      }
+
+      &::before {
+        top: 0;
+      }
+
+      &::after {
+        bottom: 0;
+      }
+    }
+
+    &__burger-icon._active {
+      span {
+        transform: scale(0);
+      }
+
+      &::before {
+        top: 11px;
+        transform: rotateZ(45deg);
+      }
+
+      &::after {
+        bottom: 11px;
+        transform: rotateZ(-45deg);
+      }
+    }
+  }
+
+  @media (max-width: 1023px) {
+    &__nav {
+      padding-top: 30px;
+    }
+
+    &__list {
+      max-width: 500px;
+    }
+
+    &__item {
+      margin-bottom: 10px;
+    }
+  }
+
+  @media (max-width: 599px) {
+    &__inner {
+      grid-template-columns: 92px auto 67px;
+      grid-template-areas: 'logo search burger';
+    }
+
+    &__buttons {
+      display: none;
+    }
+
+    &__nav {
+      top: -380px;
+      height: 380px;
+    }
+
+    &__list {
+      flex-direction: column;
+      max-width: 200px;
+      text-align: center;
+    }
+
+    &__item {
+      margin: 0;
+      margin-bottom: 15px;
+    }
+
+    &__item--hidden {
+      display: block;
+      position: relative;
+      padding-top: 14px;
+    }
+
+    &__item--hidden::before {
+      content: '';
+      position: absolute;
+      left: 25px;
+      top: 0;
+      width: 150px;
+      height: 1px;
+      background: $mouse-grey;
+    }
+
+    &__link {
+      font-size: 18px;
+    }
+  }
+}

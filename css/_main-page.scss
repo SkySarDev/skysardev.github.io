@@ -1,0 +1,159 @@
+/* Main-Page */
+.main-page {
+  &__header {
+    padding-top: 96px;
+  }
+
+  &__content {
+    padding-top: 60px;
+  }
+
+  &__footer {
+    padding: 72px 0 100px;
+  }
+
+  @media (max-width: 1334px) {
+    &__footer {
+      padding-top: 106px;
+    }
+  }
+
+  @media (max-width: 1023px) {
+    &__header {
+      padding-top: 88px;
+    }
+
+    &__footer {
+      padding: 52px 0 60px;
+    }
+  }
+
+  @media (max-width: 719px) {
+    &__header {
+      padding-top: 60px;
+    }
+
+    &__content {
+      padding-top: 40px;
+    }
+
+    &__footer {
+      padding: 40px 0 72px;
+    }
+  }
+
+  @media (max-width: 599px) {
+    &__content {
+      padding-top: 48px;
+    }
+
+    &__footer {
+      padding: 48px 0;
+    }
+  }
+
+  @media (max-width: 479px) {
+
+    &__content,
+    &__header {
+      padding-top: 48px;
+    }
+
+    &__footer {
+      padding: 32px 0 40px;
+    }
+  }
+}
+
+/* Main-Content */
+.main-content {
+  &__grid {
+    display: grid;
+    grid-template-columns: auto 292px;
+    gap: 180px;
+    grid-template-areas: 'articles popular';
+  }
+
+  &__popular {
+    grid-area: popular;
+  }
+
+  &__articles {
+    grid-area: articles;
+  }
+
+  &__article {
+    margin-bottom: 84px;
+
+    &:last-child {
+      margin-bottom: 0;
+    }
+  }
+
+  @media (max-width: 1334px) {
+    &__grid {
+      grid-template-columns: 1fr;
+      grid-template-rows: auto auto;
+      gap: 72px;
+      grid-template-areas: 'popular''articles';
+    }
+
+    &__articles {
+      padding-right: 158px;
+    }
+  }
+
+  @media (max-width: 1023px) {
+    &__grid {
+      gap: 44px;
+    }
+
+    &__articles {
+      padding-right: 0;
+    }
+
+    &__article {
+      margin-bottom: 52px;
+    }
+  }
+
+  @media (max-width: 719px) {
+    &__grid {
+      gap: 40px;
+    }
+
+    &__popular {
+      width: 292px;
+    }
+
+    &__article {
+      margin-bottom: 40px;
+    }
+  }
+
+  @media (max-width: 599px) {
+    &__grid {
+      gap: 48px;
+    }
+
+    &__article {
+      margin-bottom: 48px;
+    }
+  }
+
+  @media (max-width: 479px) {
+    &__grid {
+      gap: 44px;
+    }
+
+    &__article {
+      margin-bottom: 32px;
+    }
+  }
+
+  @media (max-width: 399px) {
+    &__grid {
+      gap: 36px;
+    }
+  }
+}
