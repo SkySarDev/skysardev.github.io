@@ -165,20 +165,12 @@
 
   @media (max-width: 1023px) {
     grid-template-rows: 198px;
-
-    &__text {
-      max-height: 57px;
-    }
   }
 
   @media (max-width: 719px) {
     grid-template-columns: auto 248px;
     grid-template-rows: 160px;
     column-gap: 16px;
-
-    &__text {
-      max-height: 42px;
-    }
   }
 
   @media (max-width: 599px) {
@@ -197,10 +189,6 @@
   @media (max-width: 479px) {
     grid-template-columns: auto 176px;
     grid-template-rows: 212px;
-
-    &__text {
-      max-height: 56px;
-    }
   }
 
   @media (max-width: 399px) {
