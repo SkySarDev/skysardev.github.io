@@ -387,9 +387,9 @@ body { font-family: "Open Sans", sans-serif; font-size: 16px; color: #5D6064; ov
 
 .footer-socials__list { display: flex; }
 
-.footer-socials__link { margin-right: 24px; }
+.footer-socials__item { margin-right: 24px; }
 
-.footer-socials__link:last-child { margin-right: 0; }
+.footer-socials__item:last-child { margin-right: 0; }
 
 .footer-socials__link { color: #FFFFFF; font-size: 24px; transition: color .3s ease; }
 
