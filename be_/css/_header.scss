@@ -41,10 +41,26 @@
     font-weight: 600;
     line-height: 150%;
     transition: all .3s ease;
+    position: relative;
+
+    &::after {
+      content: '';
+      position: absolute;
+      width: 0;
+      height: 2px;
+      background-color: $green;
+      left: 0;
+      bottom: -2px;
+      transition: all .3s ease;
+    }
 
     &:hover {
       color: $green;
       font-weight: 700;
+
+      &::after {
+        width: 100%;
+      }
     }
   }
 
