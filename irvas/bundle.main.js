@@ -14209,7 +14209,7 @@ function forms_forms(serverUrl, orderProperties) {
         }
       }
 
-      postData(`${serverUrl}/callback`, formData).then(() => {
+      postData(`${serverUrl}/api/irvas/callback`, formData).then(() => {
         statusMessage.textContent = messages.done;
       }).catch(() => {
         statusMessage.textContent = messages.error;
@@ -14363,7 +14363,7 @@ function bigImg() {
 
 
 window.addEventListener('DOMContentLoaded', () => {
-  const serverUrl = 'http://localhost:5050';
+  const serverUrl = 'https://infinite-gorge-09826.herokuapp.com';
   modals();
   modules_tabs();
   forms_forms(serverUrl, orderProperties);
