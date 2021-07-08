@@ -132,7 +132,8 @@ body { font-family: "Open Sans", sans-serif; font-size: 16px; color: #5D6064; ov
 
 @media (max-width: 399px) { .hero__bg { background: url("../images/hero/bg-360.jpg") no-repeat center; width: 100%; height: 373px; } }
 
-.hero-grid { position: relative; z-index: 1; padding-top: 163px; display: grid; grid-template-columns: 134px 292px 450px 292px; grid-template-rows: 262px 226px; gap: 24px; justify-content: center; grid-template-areas: 'left ac1 ac2 ar' 'left bc1 bc2 br'; }
+.hero-grid { position: relative; z-index: 1; padding-top: 163px; display: grid; grid-template-columns: 134px 292px 450px 292px; grid-template-rows: 262px 226px; gap: 24px; justify-content: center; grid-template-areas: 'left ac1 ac2 ar'
+ 'left bc1 bc2 br'; }
 
 .hero-grid__left { grid-area: left; grid-row: span 2; }
 
@@ -160,10 +161,12 @@ body { font-family: "Open Sans", sans-serif; font-size: 16px; color: #5D6064; ov
 
 .hero-grid__right-bot { background-image: url("../images/hero/mw-1280/hero-br.jpg"); }
 
-@media (max-width: 1334px) { .hero-grid { grid-template-columns: 134px 292px 450px; grid-template-areas: 'left ar ac2' 'left bc1 bc2'; }
+@media (max-width: 1334px) { .hero-grid { grid-template-columns: 134px 292px 450px; grid-template-areas: 'left ar ac2'
+ 'left bc1 bc2'; }
   .hero-grid__cent-top-1, .hero-grid__right-bot { display: none; } }
 
-@media (max-width: 1023px) { .hero-grid { padding-top: 96px; grid-template-columns: 134px 134px 292px; grid-template-rows: 171px 152px; grid-template-areas: 'left ac2 ar' 'left bc1 bc2'; }
+@media (max-width: 1023px) { .hero-grid { padding-top: 96px; grid-template-columns: 134px 134px 292px; grid-template-rows: 171px 152px; grid-template-areas: 'left ac2 ar'
+ 'left bc1 bc2'; }
   .hero-grid__left { background-image: url("../images/hero/mw-1023/hero-left.jpg"); }
   .hero-grid__cent-top-1 { background-image: url("../images/hero/mw-1023/hero-ac1.jpg"); }
   .hero-grid__cent-top-2 { background-image: url("../images/hero/mw-1023/hero-ac2.jpg"); }
@@ -187,7 +190,8 @@ body { font-family: "Open Sans", sans-serif; font-size: 16px; color: #5D6064; ov
   .hero-grid__cent-bot-2 { background-image: url("../images/hero/mw-599/hero-bc2.jpg"); }
   .hero-grid__right-bot { background-image: url("../images/hero/mw-599/hero-br.jpg"); } }
 
-@media (max-width: 479px) { .hero-grid { padding-top: 61px; grid-template-columns: 176px 176px; grid-template-rows: 142px 93px; grid-template-areas: 'ac2 ar' 'bc1 bc2'; }
+@media (max-width: 479px) { .hero-grid { padding-top: 61px; grid-template-columns: 176px 176px; grid-template-rows: 142px 93px; grid-template-areas: 'ac2 ar'
+ 'bc1 bc2'; }
   .hero-grid__left { background-image: url("../images/hero/mw-479/hero-left.jpg"); }
   .hero-grid__cent-top-1 { background-image: url("../images/hero/mw-479/hero-ac1.jpg"); }
   .hero-grid__cent-top-2 { background-image: url("../images/hero/mw-479/hero-ac2.jpg"); }
@@ -196,7 +200,8 @@ body { font-family: "Open Sans", sans-serif; font-size: 16px; color: #5D6064; ov
   .hero-grid__right-bot { background-image: url("../images/hero/mw-479/hero-br.jpg"); }
   .hero-grid__left { display: none; } }
 
-@media (max-width: 399px) { .hero-grid { padding-top: 44px; grid-template-columns: 70px 242px; grid-template-rows: 103px 83px; grid-template-areas: 'ac2 ar' 'bc1 bc1'; }
+@media (max-width: 399px) { .hero-grid { padding-top: 44px; grid-template-columns: 70px 242px; grid-template-rows: 103px 83px; grid-template-areas: 'ac2 ar'
+ 'bc1 bc1'; }
   .hero-grid__left { background-image: url("../images/hero/mw-399/hero-left.jpg"); }
   .hero-grid__cent-top-1 { background-image: url("../images/hero/mw-399/hero-ac1.jpg"); }
   .hero-grid__cent-top-2 { background-image: url("../images/hero/mw-399/hero-ac2.jpg"); }
@@ -417,7 +422,7 @@ body { font-family: "Open Sans", sans-serif; font-size: 16px; color: #5D6064; ov
 @media (max-width: 479px) { .footer__inner { grid-template-columns: auto 98px; }
   .footer-nav__list:last-child { margin-left: 30px; }
   .footer-socials__title { margin-bottom: 20px; }
-  .footer-socials__link { margin-right: 12px; } }
+  .footer-socials__item { margin-right: 12px; } }
 
 @media (max-width: 399px) { .footer__inner { grid-template-columns: auto 130px; row-gap: 40px; }
   .footer__left-block { order: 2; }
