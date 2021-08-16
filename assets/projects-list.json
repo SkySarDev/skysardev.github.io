@@ -1,0 +1,77 @@
+{
+  "relax-live": {
+    "title": "Relax Live",
+    "key": "relax-live",
+    "description": {
+      "en": "Repair of apartments",
+      "ru": "Ремонт жилых помещений"
+    },
+    "full-description": {
+      "en": "Landing page for a company engaged in repairing apartments.",
+      "ru": "Лэндинг компании, занимающейся ремонтом жилых помещений."
+    },
+    "link": "https://skysar.site/relax-live",
+    "github": "https://github.com/SkySarDev/js_Relax-Live",
+    "img": "relax-live"
+  },
+  "pictures-art": {
+    "title": "Pictures Art",
+    "key": "pictures-art",
+    "description": {
+      "en": "Turn a photo into a real painting!",
+      "ru": "Преврати фотографию в настоящую картину!"
+    },
+    "full-description": {
+      "en": "Landing for company that create paintings from photographs.",
+      "ru": "Лэндинг компании, создающей картины из фотографий."
+    },
+    "link": "https://skysar.site/pictures-art",
+    "github": "https://github.com/SkySarDev/js_Pictures-Art",
+    "img": "pictures-art"
+  },
+  "3d-glo": {
+    "title": "3D Glo",
+    "key": "3d-glo",
+    "description": {
+      "en": "3D Modeling Services",
+      "ru": "Услуги по 3D моделированию"
+    },
+    "full-description": {
+      "en": "3D Modeling Services, interior and exterior design.",
+      "ru": "Услуги по 3D моделированию, дизайну интерьера и экстерьера."
+    },
+    "link": "https://skysar.site/3d-glo",
+    "github": "https://github.com/SkySarDev/js_3D-Glo",
+    "img": "3d-glo"
+  },
+  "irvas": {
+    "title": "Irvas",
+    "key": "irvas",
+    "description": {
+      "en": "Balcony glazing",
+      "ru": "Остекление балконов и лоджий"
+    },
+    "full-description": {
+      "en": "Landing page for a company engaged in glazing balconies and loggias.",
+      "ru": "Лэндинг компании, занимающейся остеклением балконов и лоджий в Москве и Московской области."
+    },
+    "link": "https://skysar.site/irvas",
+    "github": "",
+    "img": "irvas"
+  },
+  "be": {
+    "title": "Be. Blog",
+    "key": "be",
+    "description": {
+      "en": "Blog about languages learning",
+      "ru": "Блог об изучении иностранных языков"
+    },
+    "full-description": {
+      "en": "Blog about languages learning.",
+      "ru": "Блог об изучении иностранных языков."
+    },
+    "link": "https://skysar.site/be_",
+    "github": "",
+    "img": "be"
+  }
+}
