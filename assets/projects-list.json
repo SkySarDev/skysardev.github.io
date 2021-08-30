@@ -1,4 +1,19 @@
 {
+  "aviasales": {
+    "title": "Aviasales",
+    "key": "aviasales",
+    "description": {
+      "en": "Search for cheap flight tickets",
+      "ru": "Поиск дешёвых авиабилетов"
+    },
+    "full-description": {
+      "en": "A simple demo of a web-application for finding flight tickets.",
+      "ru": "Небольшое демо веб-приложения для поиска авиабилетов."
+    },
+    "link": "https://skysar.site/aviasales",
+    "github": "https://github.com/SkySarDev/react__Aviasales",
+    "img": "aviasales"
+  },
   "relax-live": {
     "title": "Relax Live",
     "key": "relax-live",
