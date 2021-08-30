@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "./static/css/main.55d7a5f9.chunk.css",
+    "main.js": "./static/js/main.6a33246c.chunk.js",
+    "runtime-main.js": "./static/js/runtime-main.ae5d0aff.js",
+    "static/css/2.24bf1742.chunk.css": "./static/css/2.24bf1742.chunk.css",
+    "static/js/2.851e4aa2.chunk.js": "./static/js/2.851e4aa2.chunk.js",
+    "index.html": "./index.html",
+    "static/js/2.851e4aa2.chunk.js.LICENSE.txt": "./static/js/2.851e4aa2.chunk.js.LICENSE.txt",
+    "static/media/index.css": "./static/media/avia-map.83a1efee.jpeg",
+    "static/media/TransferFlightsFilterItem.module.scss": "./static/media/check.b3ce3c21.svg",
+    "static/media/logo.edd7ec35.png": "./static/media/logo.edd7ec35.png",
+    "static/media/plane.894d5538.svg": "./static/media/plane.894d5538.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.ae5d0aff.js",
+    "static/css/2.24bf1742.chunk.css",
+    "static/js/2.851e4aa2.chunk.js",
+    "static/css/main.55d7a5f9.chunk.css",
+    "static/js/main.6a33246c.chunk.js"
+  ]
+}
