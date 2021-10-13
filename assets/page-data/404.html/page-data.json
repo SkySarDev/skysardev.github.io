@@ -1,0 +1,5 @@
+{
+    "componentChunkName": "component---src-pages-404-js",
+    "path": "/404.html",
+    "result": {"pageContext":{"language":"en","intl":{"language":"en","languages":["en","ru"],"messages":{"siteMetadata.title":"Maxim Biryukov - Frontend Developer","siteMetadata.description":"Welcome to my site-portfolio! Here you can find my works, skills that I have and my contacts.","siteMetadata.author":"Maxim Biryukov","navLink.aboutMe":"About me","navLink.projects":"Projects","navLink.skills":"Skills","navLink.contact":"Contact","projectPage.demo":"Demo","projectPage.backButton":"Back to projects","sendMessage.sending":"Message sending...","sendMessage.success":"Message has been sent!","sendMessage.error":"Error! Message was not sent!","popup.title":"Notification","404.notFound":"Page not found"},"routed":false,"originalPath":"/404/","redirect":true,"defaultLanguage":"en"},"locale":"en"}},
+    "staticQueryHashes": []}

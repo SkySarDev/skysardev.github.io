@@ -1,0 +1,6 @@
+{
+    "componentChunkName": "component---src-pages-404-js",
+    "path": "/ru/404/",
+    "result": {"pageContext":{"matchPath":"/ru/*","language":"ru","intl":{"language":"ru","languages":["en","ru"],"messages":{"siteMetadata.title":"Максим Бирюков - Frontend разработчик","siteMetadata.description":"Добро пожаловать на мой сайт-портфолио! Здесь вы можете посмотреть мои работы, навыки, которыми я владею и найти мои контакты.","siteMetadata.author":"Максим Бирюков","navLink.aboutMe":"Обо мне","navLink.projects":"Проекты","navLink.skills":"Навыки","navLink.contact":"Контакты","projectPage.demo":"Демо","projectPage.backButton":"Назад к проектам","sendMessage.sending":"Отправка сообщения...","sendMessage.success":"Сообщение отправлено!","sendMessage.error":"Ошибка! Сообщение не отправлено!","popup.title":"Уведомление","404.notFound":"Страница не найдена"},"routed":true,"originalPath":"/404/","redirect":true,"defaultLanguage":"en"},"locale":"ru"}},
+    "staticQueryHashes": [],
+    "matchPath": "/ru/*"}
