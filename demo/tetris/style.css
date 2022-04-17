@@ -1,0 +1,35 @@
+html,
+body {
+  height: 100%;
+  margin: 0;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.container {
+  text-align: center;
+}
+
+.game-over {
+  color: red;
+}
+
+.game-over.hidden {
+  opacity: 0;
+  visibility: hidden;
+}
+
+canvas {
+  background-color: #000;
+}
+
+#play-btn {
+  margin-top: 10px;
+  padding: 10px 15px;
+  font-size: 24px;
+  cursor: pointer;
+}
